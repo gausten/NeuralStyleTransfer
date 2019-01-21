@@ -7,8 +7,6 @@ from PIL import Image
 sys.modules['Image'] = Image
 from PIL import Image
 print(Image.__file__)
-import Image
-print(Image.__file__)
 
 from keras.preprocessing.image import load_img, img_to_array
 
